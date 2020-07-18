@@ -1,13 +1,28 @@
 #include <turnkey/base>
-#include <turnkey/lapp>
 
+postgresql
+webmin-postgresql
 postgresql-contrib       # additional facilities for PostgreSQL
 
-libapache2-mod-python    # Apache 2 module that embeds Python within the server
+nginx
+
+php-pgsql
+php-gd
+php-cli
+php-cgi
+php-curl
+webmin-phpini
+
+
+// TODO does this work with postgres?
+adminer
+
+// TODO maybe replace these Apache modules with whatever would be needed for
+// Nginx, or just eliminate Python and Perl "support"
+
+//libapache2-mod-python    # Apache 2 module that embeds Python within the server
 python-pygresql          # PostgreSQL module for Python
 python-psycopg2          # Alternative PostgreSQL module for Python
 
-libapache2-mod-perl2     # Integration of perl with the Apache2 web server
+//libapache2-mod-perl2     # Integration of perl with the Apache2 web server
 libdbd-pg-perl           # Perl DBI driver for the PostgreSQL database server
-
-
