@@ -6,10 +6,10 @@
         <meta http-equiv="Content-Style-Type" content="text/css">
         <meta http-equiv="Content-Script-Type" content="text/javascript">
 
-        <title>TurnKey LAPP</title>
+        <title>TurnKey NGINX PHP FastCGI Server</title>
         
-        <link rel="stylesheet" href="css/ui.tabs.css" type="text/css" media="print, projection, screen">
-        <link rel="stylesheet" href="css/base.css" type="text/css">
+        <link rel="stylesheet" href="css/ui.tabs.css" type="text/css" media="print, projection, screen"/>
+        <link rel="stylesheet" href="css/base.css" type="text/css"/>
 
         <script src="js/jquery-1.2.6.js" type="text/javascript"></script>
         <script src="js/ui.core.js" type="text/javascript"></script>
@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        <h1>TurnKey LAPP</h1>
+        <h1>TurnKey NGINX PHP FastCGI Server</h1>
         
         <div id="container-1">
             <ul>
@@ -51,17 +51,12 @@
 
                     <h2>Resources and references</h2>
                     <ul>
+
                         <li>
-                          <a href="/phpinfo.php">Apache PHP information</a>
+                          <a href="/phpinfo.php">NGINX PHP information</a>
                           (to disable: rm /var/www/phpinfo.php)
                         </li>
-                        <li>
-                          <a href="/server-status">Apache server status</a>
-                          (to disable: a2dismod status)
-                        </li>
-                        <li><a
-                        href="https://www.turnkeylinux.org/lapp">
-                        TurnKey LAPP release notes</a></li>
+                        <li><a href="https://www.turnkeylinux.org/nginx-php-fastcgi">TurnKey appliance release notes</a></li>
                     </ul>
 
                 </div>
