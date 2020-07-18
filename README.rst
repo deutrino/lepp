@@ -1,5 +1,9 @@
-LAPP - Web Stack (PostgreSQL)
-=============================
+LEPP - Web Stack (Nginx+PHP+PostgreSQL)
+=======================================
+
+**TODO:** This is an attempted merge of the Turnkey Linux LAPP and
+Nginx+PHP-fastcgi appliances. It's planned to retain Nginx, php-fastcgi,
+PostgreSQL, and maybe Python, and eliminate Apache and MariaDB.
 
 The LAPP stack is an open source web platform that can be used to run
 dynamic web sites and servers. It is considered by many to be a powerful
