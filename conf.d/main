@@ -1,8 +1,13 @@
 #!/bin/sh -ex
 
-# enable cgi
-a2enmod cgi
+# setup fastcgi/nginx
+update-rc.d php-fastcgi defaults
 
+mkdir -p /var/run/nginx
+chown root:www-data /var/run/nginx
+chmod 770 /var/run/nginx
+
+# TODO: is this needed?
 # remove unrequired webcp icons (all except those named) 
 cd /var/www/images
 find . -type f ! -name "adminer.png" ! -name "shell.png" ! -name "tab.png" ! -name "webmin.png" -delete
